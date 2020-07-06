@@ -1,2 +1,2 @@
 # DigitalFrame
-DigitalFrame made by Swift
+DigitalFrame made with Swift
