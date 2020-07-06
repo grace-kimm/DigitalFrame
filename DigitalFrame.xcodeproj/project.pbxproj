@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20C0CA724B199E100CDD285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C0CA624B199E100CDD285 /* AppDelegate.swift */; };
+		C20C0CA924B199E100CDD285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C0CA824B199E100CDD285 /* SceneDelegate.swift */; };
+		C20C0CAB24B199E100CDD285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C0CAA24B199E100CDD285 /* ViewController.swift */; };
+		C20C0CAE24B199E100CDD285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CAC24B199E100CDD285 /* Main.storyboard */; };
+		C20C0CB024B199E200CDD285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CAF24B199E200CDD285 /* Assets.xcassets */; };
+		C20C0CB324B199E200CDD285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CB124B199E200CDD285 /* LaunchScreen.storyboard */; };
+		C20C0CBE24B199E200CDD285 /* DigitalFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C0CBD24B199E200CDD285 /* DigitalFrameTests.swift */; };
+		C20C0CC924B199E300CDD285 /* DigitalFrameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C0CC824B199E300CDD285 /* DigitalFrameUITests.swift */; };
+		C20C0CE624B19ABD00CDD285 /* dog15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CD724B19ABD00CDD285 /* dog15.jpeg */; };
+		C20C0CE724B19ABD00CDD285 /* dog12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CD824B19ABD00CDD285 /* dog12.jpeg */; };
+		C20C0CE824B19ABD00CDD285 /* dog2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CD924B19ABD00CDD285 /* dog2.jpeg */; };
+		C20C0CE924B19ABD00CDD285 /* dog4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CDA24B19ABD00CDD285 /* dog4.jpeg */; };
+		C20C0CEA24B19ABD00CDD285 /* dog13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CDB24B19ABD00CDD285 /* dog13.jpeg */; };
+		C20C0CEB24B19ABD00CDD285 /* dog6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CDC24B19ABD00CDD285 /* dog6.jpg */; };
+		C20C0CEC24B19ABD00CDD285 /* dog1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CDD24B19ABD00CDD285 /* dog1.jpeg */; };
+		C20C0CED24B19ABD00CDD285 /* dog7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CDE24B19ABD00CDD285 /* dog7.jpg */; };
+		C20C0CEE24B19ABD00CDD285 /* dog10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CDF24B19ABD00CDD285 /* dog10.jpg */; };
+		C20C0CEF24B19ABD00CDD285 /* dog5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CE024B19ABD00CDD285 /* dog5.jpg */; };
+		C20C0CF024B19ABD00CDD285 /* dog3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CE124B19ABD00CDD285 /* dog3.jpeg */; };
+		C20C0CF124B19ABD00CDD285 /* dog8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CE224B19ABD00CDD285 /* dog8.jpg */; };
+		C20C0CF224B19ABD00CDD285 /* dog9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CE324B19ABD00CDD285 /* dog9.jpg */; };
+		C20C0CF324B19ABD00CDD285 /* dog14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CE424B19ABD00CDD285 /* dog14.jpg */; };
+		C20C0CF424B19ABD00CDD285 /* dog11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0CE524B19ABD00CDD285 /* dog11.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20C0CBA24B199E200CDD285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C20C0C9B24B199E100CDD285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20C0CA224B199E100CDD285;
+			remoteInfo = DigitalFrame;
+		};
+		C20C0CC524B199E300CDD285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C20C0C9B24B199E100CDD285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20C0CA224B199E100CDD285;
+			remoteInfo = DigitalFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20C0CA324B199E100CDD285 /* DigitalFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20C0CA624B199E100CDD285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C20C0CA824B199E100CDD285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C20C0CAA24B199E100CDD285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C20C0CAD24B199E100CDD285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C20C0CAF24B199E200CDD285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20C0CB224B199E200CDD285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C20C0CB424B199E200CDD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20C0CB924B199E200CDD285 /* DigitalFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20C0CBD24B199E200CDD285 /* DigitalFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalFrameTests.swift; sourceTree = "<group>"; };
+		C20C0CBF24B199E200CDD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20C0CC424B199E300CDD285 /* DigitalFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20C0CC824B199E300CDD285 /* DigitalFrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalFrameUITests.swift; sourceTree = "<group>"; };
+		C20C0CCA24B199E300CDD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20C0CD724B19ABD00CDD285 /* dog15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog15.jpeg; path = ../../../DigitalFrameImages/dog15.jpeg; sourceTree = "<group>"; };
+		C20C0CD824B19ABD00CDD285 /* dog12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog12.jpeg; path = ../../../DigitalFrameImages/dog12.jpeg; sourceTree = "<group>"; };
+		C20C0CD924B19ABD00CDD285 /* dog2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog2.jpeg; path = ../../../DigitalFrameImages/dog2.jpeg; sourceTree = "<group>"; };
+		C20C0CDA24B19ABD00CDD285 /* dog4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog4.jpeg; path = ../../../DigitalFrameImages/dog4.jpeg; sourceTree = "<group>"; };
+		C20C0CDB24B19ABD00CDD285 /* dog13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog13.jpeg; path = ../../../DigitalFrameImages/dog13.jpeg; sourceTree = "<group>"; };
+		C20C0CDC24B19ABD00CDD285 /* dog6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog6.jpg; path = ../../../DigitalFrameImages/dog6.jpg; sourceTree = "<group>"; };
+		C20C0CDD24B19ABD00CDD285 /* dog1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog1.jpeg; path = ../../../DigitalFrameImages/dog1.jpeg; sourceTree = "<group>"; };
+		C20C0CDE24B19ABD00CDD285 /* dog7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog7.jpg; path = ../../../DigitalFrameImages/dog7.jpg; sourceTree = "<group>"; };
+		C20C0CDF24B19ABD00CDD285 /* dog10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog10.jpg; path = ../../../DigitalFrameImages/dog10.jpg; sourceTree = "<group>"; };
+		C20C0CE024B19ABD00CDD285 /* dog5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog5.jpg; path = ../../../DigitalFrameImages/dog5.jpg; sourceTree = "<group>"; };
+		C20C0CE124B19ABD00CDD285 /* dog3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog3.jpeg; path = ../../../DigitalFrameImages/dog3.jpeg; sourceTree = "<group>"; };
+		C20C0CE224B19ABD00CDD285 /* dog8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog8.jpg; path = ../../../DigitalFrameImages/dog8.jpg; sourceTree = "<group>"; };
+		C20C0CE324B19ABD00CDD285 /* dog9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog9.jpg; path = ../../../DigitalFrameImages/dog9.jpg; sourceTree = "<group>"; };
+		C20C0CE424B19ABD00CDD285 /* dog14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog14.jpg; path = ../../../DigitalFrameImages/dog14.jpg; sourceTree = "<group>"; };
+		C20C0CE524B19ABD00CDD285 /* dog11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog11.jpeg; path = ../../../DigitalFrameImages/dog11.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20C0CA024B199E100CDD285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20C0CB624B199E200CDD285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20C0CC124B199E300CDD285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20C0C9A24B199E100CDD285 = {
+			isa = PBXGroup;
+			children = (
+				C20C0CA524B199E100CDD285 /* DigitalFrame */,
+				C20C0CBC24B199E200CDD285 /* DigitalFrameTests */,
+				C20C0CC724B199E300CDD285 /* DigitalFrameUITests */,
+				C20C0CA424B199E100CDD285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C20C0CA424B199E100CDD285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20C0CA324B199E100CDD285 /* DigitalFrame.app */,
+				C20C0CB924B199E200CDD285 /* DigitalFrameTests.xctest */,
+				C20C0CC424B199E300CDD285 /* DigitalFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C20C0CA524B199E100CDD285 /* DigitalFrame */ = {
+			isa = PBXGroup;
+			children = (
+				C20C0CD624B199EB00CDD285 /* Resource */,
+				C20C0CA624B199E100CDD285 /* AppDelegate.swift */,
+				C20C0CA824B199E100CDD285 /* SceneDelegate.swift */,
+				C20C0CAA24B199E100CDD285 /* ViewController.swift */,
+				C20C0CAC24B199E100CDD285 /* Main.storyboard */,
+				C20C0CAF24B199E200CDD285 /* Assets.xcassets */,
+				C20C0CB124B199E200CDD285 /* LaunchScreen.storyboard */,
+				C20C0CB424B199E200CDD285 /* Info.plist */,
+			);
+			path = DigitalFrame;
+			sourceTree = "<group>";
+		};
+		C20C0CBC24B199E200CDD285 /* DigitalFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C20C0CBD24B199E200CDD285 /* DigitalFrameTests.swift */,
+				C20C0CBF24B199E200CDD285 /* Info.plist */,
+			);
+			path = DigitalFrameTests;
+			sourceTree = "<group>";
+		};
+		C20C0CC724B199E300CDD285 /* DigitalFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C20C0CC824B199E300CDD285 /* DigitalFrameUITests.swift */,
+				C20C0CCA24B199E300CDD285 /* Info.plist */,
+			);
+			path = DigitalFrameUITests;
+			sourceTree = "<group>";
+		};
+		C20C0CD624B199EB00CDD285 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C20C0CDD24B19ABD00CDD285 /* dog1.jpeg */,
+				C20C0CD924B19ABD00CDD285 /* dog2.jpeg */,
+				C20C0CE124B19ABD00CDD285 /* dog3.jpeg */,
+				C20C0CDA24B19ABD00CDD285 /* dog4.jpeg */,
+				C20C0CE024B19ABD00CDD285 /* dog5.jpg */,
+				C20C0CDC24B19ABD00CDD285 /* dog6.jpg */,
+				C20C0CDE24B19ABD00CDD285 /* dog7.jpg */,
+				C20C0CE224B19ABD00CDD285 /* dog8.jpg */,
+				C20C0CE324B19ABD00CDD285 /* dog9.jpg */,
+				C20C0CDF24B19ABD00CDD285 /* dog10.jpg */,
+				C20C0CE524B19ABD00CDD285 /* dog11.jpeg */,
+				C20C0CD824B19ABD00CDD285 /* dog12.jpeg */,
+				C20C0CDB24B19ABD00CDD285 /* dog13.jpeg */,
+				C20C0CE424B19ABD00CDD285 /* dog14.jpg */,
+				C20C0CD724B19ABD00CDD285 /* dog15.jpeg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20C0CA224B199E100CDD285 /* DigitalFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20C0CCD24B199E300CDD285 /* Build configuration list for PBXNativeTarget "DigitalFrame" */;
+			buildPhases = (
+				C20C0C9F24B199E100CDD285 /* Sources */,
+				C20C0CA024B199E100CDD285 /* Frameworks */,
+				C20C0CA124B199E100CDD285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalFrame;
+			productName = DigitalFrame;
+			productReference = C20C0CA324B199E100CDD285 /* DigitalFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C20C0CB824B199E200CDD285 /* DigitalFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20C0CD024B199E300CDD285 /* Build configuration list for PBXNativeTarget "DigitalFrameTests" */;
+			buildPhases = (
+				C20C0CB524B199E200CDD285 /* Sources */,
+				C20C0CB624B199E200CDD285 /* Frameworks */,
+				C20C0CB724B199E200CDD285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20C0CBB24B199E200CDD285 /* PBXTargetDependency */,
+			);
+			name = DigitalFrameTests;
+			productName = DigitalFrameTests;
+			productReference = C20C0CB924B199E200CDD285 /* DigitalFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C20C0CC324B199E300CDD285 /* DigitalFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20C0CD324B199E300CDD285 /* Build configuration list for PBXNativeTarget "DigitalFrameUITests" */;
+			buildPhases = (
+				C20C0CC024B199E300CDD285 /* Sources */,
+				C20C0CC124B199E300CDD285 /* Frameworks */,
+				C20C0CC224B199E300CDD285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20C0CC624B199E300CDD285 /* PBXTargetDependency */,
+			);
+			name = DigitalFrameUITests;
+			productName = DigitalFrameUITests;
+			productReference = C20C0CC424B199E300CDD285 /* DigitalFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C20C0C9B24B199E100CDD285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ddaeng;
+				TargetAttributes = {
+					C20C0CA224B199E100CDD285 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C20C0CB824B199E200CDD285 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C20C0CA224B199E100CDD285;
+					};
+					C20C0CC324B199E300CDD285 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C20C0CA224B199E100CDD285;
+					};
+				};
+			};
+			buildConfigurationList = C20C0C9E24B199E100CDD285 /* Build configuration list for PBXProject "DigitalFrame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C20C0C9A24B199E100CDD285;
+			productRefGroup = C20C0CA424B199E100CDD285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20C0CA224B199E100CDD285 /* DigitalFrame */,
+				C20C0CB824B199E200CDD285 /* DigitalFrameTests */,
+				C20C0CC324B199E300CDD285 /* DigitalFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20C0CA124B199E100CDD285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20C0CE724B19ABD00CDD285 /* dog12.jpeg in Resources */,
+				C20C0CF124B19ABD00CDD285 /* dog8.jpg in Resources */,
+				C20C0CE824B19ABD00CDD285 /* dog2.jpeg in Resources */,
+				C20C0CB324B199E200CDD285 /* LaunchScreen.storyboard in Resources */,
+				C20C0CB024B199E200CDD285 /* Assets.xcassets in Resources */,
+				C20C0CF324B19ABD00CDD285 /* dog14.jpg in Resources */,
+				C20C0CF024B19ABD00CDD285 /* dog3.jpeg in Resources */,
+				C20C0CEB24B19ABD00CDD285 /* dog6.jpg in Resources */,
+				C20C0CEA24B19ABD00CDD285 /* dog13.jpeg in Resources */,
+				C20C0CEC24B19ABD00CDD285 /* dog1.jpeg in Resources */,
+				C20C0CEE24B19ABD00CDD285 /* dog10.jpg in Resources */,
+				C20C0CF224B19ABD00CDD285 /* dog9.jpg in Resources */,
+				C20C0CEF24B19ABD00CDD285 /* dog5.jpg in Resources */,
+				C20C0CE624B19ABD00CDD285 /* dog15.jpeg in Resources */,
+				C20C0CF424B19ABD00CDD285 /* dog11.jpeg in Resources */,
+				C20C0CED24B19ABD00CDD285 /* dog7.jpg in Resources */,
+				C20C0CE924B19ABD00CDD285 /* dog4.jpeg in Resources */,
+				C20C0CAE24B199E100CDD285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20C0CB724B199E200CDD285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20C0CC224B199E300CDD285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20C0C9F24B199E100CDD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20C0CAB24B199E100CDD285 /* ViewController.swift in Sources */,
+				C20C0CA724B199E100CDD285 /* AppDelegate.swift in Sources */,
+				C20C0CA924B199E100CDD285 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20C0CB524B199E200CDD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20C0CBE24B199E200CDD285 /* DigitalFrameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20C0CC024B199E300CDD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20C0CC924B199E300CDD285 /* DigitalFrameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20C0CBB24B199E200CDD285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20C0CA224B199E100CDD285 /* DigitalFrame */;
+			targetProxy = C20C0CBA24B199E200CDD285 /* PBXContainerItemProxy */;
+		};
+		C20C0CC624B199E300CDD285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20C0CA224B199E100CDD285 /* DigitalFrame */;
+			targetProxy = C20C0CC524B199E300CDD285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C20C0CAC24B199E100CDD285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20C0CAD24B199E100CDD285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C20C0CB124B199E200CDD285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20C0CB224B199E200CDD285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C20C0CCB24B199E300CDD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C20C0CCC24B199E300CDD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C20C0CCE24B199E300CDD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigitalFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddaeng.DigitalFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C20C0CCF24B199E300CDD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigitalFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddaeng.DigitalFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C20C0CD124B199E300CDD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigitalFrameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddaeng.DigitalFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalFrame.app/DigitalFrame";
+			};
+			name = Debug;
+		};
+		C20C0CD224B199E300CDD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigitalFrameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddaeng.DigitalFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalFrame.app/DigitalFrame";
+			};
+			name = Release;
+		};
+		C20C0CD424B199E300CDD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigitalFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddaeng.DigitalFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalFrame;
+			};
+			name = Debug;
+		};
+		C20C0CD524B199E300CDD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DigitalFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ddaeng.DigitalFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalFrame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20C0C9E24B199E100CDD285 /* Build configuration list for PBXProject "DigitalFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20C0CCB24B199E300CDD285 /* Debug */,
+				C20C0CCC24B199E300CDD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20C0CCD24B199E300CDD285 /* Build configuration list for PBXNativeTarget "DigitalFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20C0CCE24B199E300CDD285 /* Debug */,
+				C20C0CCF24B199E300CDD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20C0CD024B199E300CDD285 /* Build configuration list for PBXNativeTarget "DigitalFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20C0CD124B199E300CDD285 /* Debug */,
+				C20C0CD224B199E300CDD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20C0CD324B199E300CDD285 /* Build configuration list for PBXNativeTarget "DigitalFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20C0CD424B199E300CDD285 /* Debug */,
+				C20C0CD524B199E300CDD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C20C0C9B24B199E100CDD285 /* Project object */;
+}
